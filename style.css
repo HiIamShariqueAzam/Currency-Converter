@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb);
+    font-size: 28px;
+}
+
+.container{
+    background: linear-gradient(to right, #f3e5f5, #e1bee7);
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+form{
+    margin: 2rem 0 1rem 0;
+}
+
+form select, button, input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input{
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 2.5rem;
+    padding-left: 0.5rem;
+}
+
+.dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.select-container img{
+    max-width: 2rem;
+    font-size: 2rem;
+}
+
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+    width: 6rem;
+}
+
+.dropdown i{
+    margin-top: 1.8rem;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+}
+
+.select-container select{
+    font-size: 1rem;
+    width: auto;
+}
+
+.msg{
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    border: 1px solid lightgray;
+    background-color: #af4d98;
+    color: white;
+    height: 3rem;
+    font-size: 1.15rem;
+    cursor: pointer;
+    
+}
+
+
