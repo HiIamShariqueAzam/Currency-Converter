@@ -1,1 +1,1 @@
-A currency converter app that lets users convert any amount from one currency to another using a real-time exchange rate API. The app also shows the flags of the selected countries for a better visual experience.
+Developed a Currency Converter App using HTML, CSS and JavaScript, integrating an API to fetch live exchange rates. The app allows users to convert any amount between different currencies while displaying their respective country flags. The application fetches real-time exchange rates from an API and updates the result dynamically.  
